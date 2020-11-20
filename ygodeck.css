@@ -1,5 +1,5 @@
 
-html, body { margin: 0; height: 100%; width: 100%; }
+html, body { margin: 0; height: 00; width: 0; }
 body { background: #cccccc; }
 
 body > div { display: none; }
