@@ -101,7 +101,7 @@ div#zoom-viewer
 div.deck
 {
     position: absolute;
-    left: calc(50% - 52vh);
+    /*left: calc(50% - 52vh);*/
     width: 104vh;
     background: #aaaaaa;
     border-radius: 10px;
