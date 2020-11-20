@@ -183,7 +183,6 @@ div.card
     height:   14vh;
     cursor: zoom-in;
 }
-div.card.selected { cursor: zoom-out; }
 
 div.card > img
 {
