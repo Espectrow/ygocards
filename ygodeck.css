@@ -1,6 +1,6 @@
 
 html, body { margin: 0; height: 00; width: 0; }
-body { background: #cccccc; }
+body { background: #000000; }
 
 body > div { display: none; }
 body.import > div#import-container { display: block; }
@@ -103,7 +103,7 @@ div.deck
     position: absolute;
     /*left: calc(50% - 52vh);*/
     width: 104vh;
-    background: #aaaaaa;
+    background: #000000;
     border-radius: 10px;
 }
 
@@ -151,16 +151,16 @@ div#main-deck-label, div#extra-deck-label, div#side-deck-label
 {
     cursor: default;
     z-index: 25000;
-    position: absolute;
-    background: #aaaaaa;
+    position: sticky;
+    background: #565656;
     left: 3vh;
     top: -7px;
-    border: 4px solid #777777;
+    /* border: 4px solid #777777; */
     border-radius: 8px;
-    padding: 3px 6px 2px;
-    
+    padding: 00px 0px 0px 0px;
     font-size: 14px;
     font-family: "Lucida Console", Monaco, monospace;
+    margin: 5px 10px 0px 10px;v
 }
 
 div#main-deck-label::before { content: "Main Deck ("; }
