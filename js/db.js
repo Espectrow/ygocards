@@ -2280,7 +2280,7 @@ var db295517 ="";
 var db29552709 ="";
 var db2956282 ="";
 var db2957055 ="";
-var db29587993 ="";
+var db29587993 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=50525";
 var db29590752 ="";
 var db29590905 ="";
 var db29596581 ="";
