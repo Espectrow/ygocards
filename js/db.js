@@ -4858,7 +4858,7 @@ var db51632798 ="";
 var db51638941 ="";
 var db51644030 ="";
 var db51670553 ="";
-var db51697825 ="";
+var db51697825 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=50536";
 var db51701885 ="";
 var db51717541 ="";
 var db51728779 ="";
