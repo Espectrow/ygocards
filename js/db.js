@@ -971,7 +971,7 @@ var db18094166 ="";
 var db18096222 ="";
 var db18108166 ="";
 var db18114794 ="";
-var db18144506 ="";
+var db18144506 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=50537";
 var db18158397 ="";
 var db18161786 ="";
 var db18175965 ="";
