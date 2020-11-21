@@ -7250,7 +7250,7 @@ var db73271204 ="";
 var db73275815 ="";
 var db73285669 ="";
 var db73289035 ="";
-var db73304257 ="";
+var db73304257 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=50556";
 var db73318863 ="";
 var db73333463 ="";
 var db73341839 ="";
