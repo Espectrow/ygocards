@@ -8790,7 +8790,7 @@ var db8715625 ="";
 var db87170768 ="";
 var db87182127 ="";
 var db8719957 ="";
-var db87209160 ="";
+var db87209160 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=50526";
 var db87210505 ="";
 var db87246309 ="";
 var db87255382 ="";
