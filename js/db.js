@@ -4466,7 +4466,7 @@ var db48422921 ="";
 var db48424886 ="";
 var db48427163 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=50609";
 var db48439321 ="";
-var db48444114 ="";
+var db48444114 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=50617";
 var db48445393 ="";
 var db48447192 ="";
 var db48453776 ="";
