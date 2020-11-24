@@ -10045,7 +10045,7 @@ var db98672567 ="";
 var db98700941 ="";
 var db98707192 ="";
 var db98719226 ="";
-var db987311 ="";
+var db987311 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=40331";
 var db98745000 ="";
 var db98777036 ="";
 var db98780137 ="";
