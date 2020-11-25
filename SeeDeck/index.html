@@ -15,9 +15,8 @@
     <spam id="html" style="height:700px; width:500px"></spam>
     </div>
     <div>
-    <button id="" onClick="convertir()">convertir</button>
+    <!--<button id="" onClick="convertir()">convertir</button>-->
     </div>
-    </center>
     
     
     
@@ -47,6 +46,7 @@
     function leer(ev) {
 		document.getElementById('ydk').style="display:";
         document.getElementById('ydk').innerHTML=ev.target.result;
+		convertir();
     }
 </script>
 
@@ -54,5 +54,6 @@
 <p id="datos"></p>
     
     
+    </center>
     </body>
 </html>
