@@ -12,6 +12,10 @@ function convertir(){
 	document.getElementById("ydk").style="display:none"
 	for(var a=0; a<cont.length; a++)
 	{	
+		if(cont[0] != "#main")
+		{
+			html[0]=''
+		}
 		if (!isNaN(cont[a]))
 		{
 			html[a]=PRIMERO+cont[a]+SEGUNDO+cont[a]+TERCERO+cont[a]+CUARTO+cont[a]+QUINTO+'\n';
