@@ -40,3 +40,25 @@ a{
     margin-left: -5px;
     margin-top: 34px;
 }
+
+#Menu{
+	border: solid 1px #9E9E9E;
+    margin: 3px 1px 3px 1px;
+    border-radius: 10px;
+    background-color: #b0b1b157;
+    display: inline-table;
+    width: 250px;
+    height: 50px;
+}
+#Menu:hover{
+	border: solid 1px #9E9E9E;
+    margin: 3px 1px 3px 1px;
+    border-radius: 10px;
+    background-color: #b0b1b187;
+    display: inline-table;width: 250px;
+    width: 250px;
+    height: 50px;
+}
+#menu_text{
+	display: inline-table;
+}
