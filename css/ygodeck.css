@@ -1,6 +1,15 @@
+@font-face{
+	font-family: "YuGiOh";
+	src: url("matrixbsc_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-strecht: condensed;
+}
+
 body{
 	background-color: black;
     color: #fff;
+	font-family:YuGiOh;
 }
 
 img {
