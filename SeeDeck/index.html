@@ -1,0 +1,52 @@
+<html>
+	<head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/ygodeck.css">
+        <script type="text/javascript" src="../js/lightbox-plus-jquery.min.js"></script>
+        <script type="text/javascript" src="../js/db.js"></script>
+        <script type="text/javascript" src="../js/js.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/lightbox.min.css">
+        <script type="text/javascript" src="js.js"></script>
+    </head>
+    <body>
+    <center>
+    <div>
+    <spam id="ydk" style="height:700px; width:500px"></spam>
+    <spam id="html" style="height:700px; width:500px"></spam>
+    </div>
+    <div>
+    <button id="" onClick="convertir()">convertir</button>
+    </div>
+    </center>
+    
+    
+    
+    
+    <script>
+    window.addEventListener('load', inicio, false);
+
+    function inicio() {
+        document.getElementById('archivo').addEventListener('change', cargar, false);               
+    }
+
+    function cargar(ev) {
+        document.getElementById('datos').innerHTML='Nombre del archivo:'+ev.target.files[0].name+'<br>'+
+                                                   'Tamaño del archivo:'+ev.target.files[0].size+'<br>'+  
+                                                   'Tipo MIME:'+ev.target.files[0].type;
+        var arch=new FileReader();
+        arch.addEventListener('load',leer,false);
+        arch.readAsText(ev.target.files[0]);
+    }
+    
+    function leer(ev) {
+        document.getElementById('ydk').innerHTML=ev.target.result;
+    }
+</script>
+
+<input type="file" id="archivo"><br>
+<br>
+<p id="datos"></p>
+    
+    
+    </body>
+</html>
