@@ -11,8 +11,8 @@
     <body>
     <center>
     <div>
-    <spam id="ydk" style="height:700px; width:500px"></spam>
-    <spam id="html" style="height:700px; width:500px"></spam>
+    <div id="ydk"></div>
+    <div id="html"></div>
     </div>
     <div>
     <!--<button id="" onClick="convertir()">convertir</button>-->
@@ -39,6 +39,7 @@
         arch.addEventListener('load',leer,false);
         arch.readAsText(ev.target.files[0]);
 		}else{
+		document.getElementById("html").innerHTML=""
 		document.getElementById('ydk').style="display:";
 		document.getElementById('ydk').innerHTML="debe subir un archivo ydk"}
     }

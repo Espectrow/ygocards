@@ -10,6 +10,7 @@ function convertir(){
 	var QUINTO ='.jpg"></a>'
 	document.getElementById("html").innerHTML=""
 	document.getElementById("ydk").style="display:none"
+	
 	for(var a=0; a<cont.length; a++)
 	{	
 		if(cont[0] != "#main")
@@ -22,23 +23,22 @@ function convertir(){
 		}
 		if(cont[a] == "#main")
 		{
-			html[a]='<center>\n<div id="deck-container">\n<div id="title">Main Deck</div>\n<div id="Images">\n'
+			html[a]='<center>\n<div id="deck-container">\n<div id="title">Main Deck</div>\n<div id="Images">'
 		}
 		if(cont[a] == "#extra")
 		{
-			html[a]='</div>\n</div>\n</div>\n\n<div id="deck-container">\n<div id="title">Extra Deck</div>\n<div id="images">\n'
+			html[a]='</div>\n</div>\n</div>\n\n<div id="deck-container">\n<div id="title">Extra Deck</div>\n<div id="images">'
 		}
 		if(cont[a] == "!side")
 		{
-			html[a]='</div>\n</div>\n</div>\n\n<div id="deck-container">\n<div id="title">Side Deck</div>\n<div id="images">\n'
+			html[a]='</div>\n</div>\n</div>\n\n<div id="deck-container">\n<div id="title">Side Deck</div>\n<div id="images">'
 		}
 		
 		if(cont[a] == "#fin" || cont[a] == "")
 		{
-			html[a]='</div>\n</div>\n</div>\n</center>\n</body>\n</html>'
+			html[a]='</div>\n</div>\n</div>\n</center>'
 		}
 	}
-	
 	for(var e=0; e<html.length; e++)
 	{
 	document.getElementById("html").innerHTML+=html[e]
