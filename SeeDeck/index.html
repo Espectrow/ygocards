@@ -39,10 +39,13 @@
         var arch=new FileReader();
         arch.addEventListener('load',leer,false);
         arch.readAsText(ev.target.files[0]);
-		}else alert("debe subir un archivo ydk")
+		}else{
+		document.getElementById('ydk').style="display:";
+		document.getElementById('ydk').innerHTML="debe subir un archivo ydk"}
     }
     
     function leer(ev) {
+		document.getElementById('ydk').style="display:";
         document.getElementById('ydk').innerHTML=ev.target.result;
     }
 </script>
