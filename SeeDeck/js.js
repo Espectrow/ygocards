@@ -5,7 +5,7 @@ function convertir(){
 	var html = new Array();
 	var PRIMERO ='<a href="https://espectrow.github.io/ygocards/pics/'
 	var SEGUNDO ='.jpg" data-lightbox="'
-	var TERCERO ='"><img onClick="verdetalle(\'';
+	var TERCERO ='"><img onerror="imgerror(this)" onClick="verdetalle(\'';
 	var CUARTO = '\')" id="image" src="https://espectrow.github.io/ygocards/pics/'
 	var QUINTO ='.jpg"></a>'
 	document.getElementById("html").innerHTML=""
