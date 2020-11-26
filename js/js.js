@@ -14,7 +14,7 @@ function verdetalle(aux){
 	
 	
 }
-function imgerror(imagen,db) {
+function imgerror(imagen) {
 	
 	var cantidada = document.getElementsByTagName("a")
 	for(var a = 0; a < cantidada.length-1; a++)
