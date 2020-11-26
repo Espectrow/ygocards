@@ -4745,6 +4745,7 @@ var db50546208 ="https://www.socialcreator.com/yugiohgalery/?s=101322&idprod=506
 var db50548657 ="";
 var db50554729 ="";
 var db50584941 ="";
+var db50588353 ="";
 var db50593156 ="";
 var db50604950 ="";
 var db50608164 ="";
@@ -9127,6 +9128,7 @@ var db90207654 ="";
 var db90219263 ="";
 var db90238142 ="";
 var db90239723 ="";
+var db9024198 ="";
 var db9024367 ="";
 var db90243945 ="";
 var db90246973 ="";
