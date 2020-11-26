@@ -7,7 +7,7 @@ function verdetalle(aux){
 	else{
 	document.getElementById('descripcion').innerHTML ='Estamos agregando la carta a nuestra base de datos'
 	}
-	if(eval(url)==dberror){
+	if(url=="dberror"){
 	document.getElementById('descripcion').innerHTML ='Esta Carta No se encuentra en nuestra base de datos, es posible que el ydk cargado no sea compatible con nuestra app.'
 	}
 	
