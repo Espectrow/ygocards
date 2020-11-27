@@ -12,13 +12,22 @@ body{
 	font-family:YuGiOh;
 }
 
-img {
+img{
     width: 100%;
     max-width: 75px;
 }
 
 img:hover{
 	box-shadow:0px 0px 5px #fff;
+}
+
+#new{
+    width: 100%;
+    max-width: 75px;
+    display: block;
+}
+#new:over{
+	box-shadow:0px 0px 0px #fff !important;
 }
 
 #deck-container {
