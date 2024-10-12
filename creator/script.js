@@ -45,14 +45,14 @@ document.getElementById("card-defense").addEventListener("input", validateAttack
                 // Determinar la URL de la imagen de fondo según el tipo de carta
                 let cardBackgroundURL;
                 switch (cardType) {
-                    case "monster":
-                        cardBackgroundURL = "https://i.ibb.co/c3FNkmy/monster-bg.png";
+                    case "monster-normal":
+                        cardBackgroundURL = "monster-normal-bg.png";
                         break;
-                    case "magic":
-                        cardBackgroundURL = "https://i.ibb.co/Rg3sd7W/magic-bg.png"; 
+                    case "monster-efect":
+                        cardBackgroundURL = "monster-effect-bg.png"; 
                         break;
-                    case "trap":
-                        cardBackgroundURL = "https://i.ibb.co/KqCc0J3/trap-bg.png"; 
+                    case "token":
+                        cardBackgroundURL = "token-bg.png"; 
                         break;
                     default:
                         alert("Tipo de carta no reconocido.");
@@ -63,7 +63,7 @@ document.getElementById("card-defense").addEventListener("input", validateAttack
                 let attributeImageURL;
                 switch (cardAttribute) {
                     case "luz":
-                        attributeImageURL = "https://i.ibb.co/tbBCBDL/light.png";
+                        attributeImageURL = "light.png";
                         break;
                     case "water":
                         attributeImageURL = "https://i.ibb.co/tbBCBDL/water.png";
@@ -81,13 +81,13 @@ document.getElementById("card-defense").addEventListener("input", validateAttack
                 let cardStarURL;
                 switch (cardLevel) {
                     case "1":
-                        cardStarURL = "https://i.ibb.co/6Y1rT6J/star-1.png";
+                        cardStarURL = "star_1.png";
                         break;
                     case "2":
-                        cardStarURL = "https://i.ibb.co/6Y1rT6J/star-2.png"; 
+                        cardStarURL = "star_2.png"; 
                         break;
                     case "3":
-                        cardStarURL = "https://i.ibb.co/6Y1rT6J/star-3.png"; 
+                        cardStarURL = "star_3.png"; 
                         break;
                     // Agrega más casos según los niveles que necesites
                     default:
