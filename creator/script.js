@@ -48,7 +48,7 @@ document.getElementById("card-defense").addEventListener("input", validateAttack
                     case "monster-normal":
                         cardBackgroundURL = "monster-normal-bg.png";
                         break;
-                    case "monster-efect":
+                    case "monster-effect":
                         cardBackgroundURL = "monster-effect-bg.png"; 
                         break;
                     case "token":
