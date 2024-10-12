@@ -96,3 +96,13 @@ a {
 a:hover {
     text-decoration: underline; /* Subrayar al pasar el mouse */
 }
+
+#div-options{
+	display: inline-block;
+}
+
+#div-imgandbuton{
+	display: inline-block;
+    position: absolute;
+    margin: 14px 5px 5px 15px;
+}

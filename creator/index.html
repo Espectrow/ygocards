@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Creador de Cartas Yu-Gi-Oh!</h1>
-    
+    <div id="div-options">
     <label for="card-type">Tipo de Carta:</label>
     <select id="card-type">
         <option value="monster-normal">Monstruo Normal</option>
@@ -41,9 +41,13 @@
     
     <button id="generate-card">Generar Carta</button>
     
+	</div>
+	
+	
+	<div id="div-imgandbuton">
     <canvas id="image-canvas" width="200" height="200"></canvas>
     <canvas id="card-canvas" width="200" height="290" style="display: none;"></canvas>
-    
+    <div>
     <!-- <h2>Vista Previa:</h2> -->
 	<img id="card-output" src="" alt="Vista previa de la carta" style="display:none;">
 	<a id="download-card" href="#" download="carta.jpg" style="display: none;">Descargar Carta</a>
