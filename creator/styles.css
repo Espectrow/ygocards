@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'MatrixSmallCaps';
+    src: url('./MatrixSmallCaps.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Fondo claro para mayor contraste */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50; /* Color más oscuro para el título */
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px;
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario */
+}
+
+label {
+    display: block; /* Cada etiqueta ocupa una línea */
+    margin: 10px 0 5px; /* Margen alrededor de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+    color: #34495e; /* Color gris para las etiquetas */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%; /* Ancho completo para los campos */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Margen inferior entre campos */
+    border: 1px solid #bdc3c7; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho */
+    font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+input[type="file"] {
+    border: none; /* Sin borde */
+    padding: 0; /* Sin padding */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+button {
+    background-color: #3498db; /* Color de fondo azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia a puntero al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+button:hover {
+    background-color: #2980b9; /* Color más oscuro al pasar el mouse */
+}
+
+canvas {
+    display: block; /* Asegura que los canvases se muestren */
+    margin: 20px auto; /* Centrar los canvases */
+    border: 1px solid #bdc3c7; /* Borde gris alrededor del canvas */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#card-output {
+    display: block; /* Asegura que los canvases se muestren */
+    margin: 20px auto; /* Centrar los canvases */
+    border: 1px solid #bdc3c7; /* Borde gris alrededor del canvas */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#card-output {
+    margin-top: 20px;
+    max-width: 200px; /* Ancho máximo de la vista previa */
+}
+
+a {
+    display: inline-block; /* Cambia a bloque en línea para mejor posicionamiento */
+    margin-top: 10px;
+    text-decoration: none; /* Sin subrayado en el enlace */
+    color: #3498db; /* Color azul para el enlace */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
